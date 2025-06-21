@@ -1,0 +1,23 @@
+Time Complexity of the Recursive Algorithm
+
+The recursive algorithm calls itself once for each period.
+So, if there are n periods, the time complexity is:
+O(n)
+This means the time taken increases linearly as the number of periods increases.
+
+
+
+How to Optimize the Recursive Solution
+Instead of recursion, we can:
+
+->Use iteration (loop):
+We can replace recursion with a loop that repeatedly multiplies the value for each period.
+This avoids many function calls and reduces memory usage.
+
+->Apply the direct formula:
+We can directly calculate the future value using the formula:
+
+!*future_value=initial_value×(1+growth_rate)^n*!
+ 
+This gives the result in one step, without needing loops or recursion.
+
