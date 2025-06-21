@@ -1,0 +1,12 @@
+Recursion is a process where a function calls itself to solve smaller parts of the same problem.
+It continues until it reaches a base case (a condition where it stops calling itself).
+
+How Recursion Simplifies Problems?
+->It breaks a big problem into smaller, easier subproblems.
+->It is useful for problems with repeating patterns.
+->Makes code shorter and easier to understand for tasks like:
+
+   *Factorial
+   *Fibonacci series
+   *Tree or graph traversal
+   *Solving puzzles (e.g., Tower of Hanoi)
